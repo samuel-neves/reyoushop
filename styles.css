@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+section {
+  display: flex;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.section-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.bold {
+  font-weight: bold;
+}
