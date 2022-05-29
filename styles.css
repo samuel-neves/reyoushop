@@ -43,6 +43,11 @@ h1 {
   font-size: 48px;
 }
 
+h1, h2 {
+  font-family: Nunito;
+  font-weight: 500;
+}
+
 .section-text-container {
   display: flex;
   flex-direction: column;
