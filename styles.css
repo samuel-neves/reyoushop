@@ -114,8 +114,12 @@ h1, h2 {
   font-size: 1.125em;
 }
 
-#image-section {
+.image-section {
   width: 100%;
+}
+
+.show-smaller-screen {
+  display: none;
 }
 
 #footer-divider {
@@ -188,5 +192,13 @@ h1, h2 {
 
   #footer-container img {
     height: 230px;
+  }
+
+  .hide-smaller-screen {
+    display: none;
+  }
+
+  .show-smaller-screen {
+    display: block;
   }
 }
