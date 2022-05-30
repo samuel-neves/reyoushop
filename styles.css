@@ -31,16 +31,16 @@ section {
 
 p {
   margin-bottom: 24px;
-  font-size: 29px;
+  font-size: 1.5em;
   font-weight: 300;
-  line-height: 26px;
+  line-height: 1.625em;
   font-family: Confortaa-light;
 }
 
 h1 {
   margin: 6% 12.2%;
-  line-height: 66px;
-  font-size: 48px;
+  line-height: 1.5em;
+  font-size: 3em;
 }
 
 h1, h2 {
@@ -82,7 +82,7 @@ h1, h2 {
 }
 
 #about-first-section-container p {
-  line-height: 36px;
+  line-height: 1.6em;
 }
 
 #about-first-section-container .section-text-container {
@@ -100,7 +100,7 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 28px;
+  font-size: 1.75em;
   font-family: Confortaa-light;
   font-weight: 300;
 }
@@ -111,7 +111,7 @@ h1, h2 {
 }
 
 #about-second-section-container p {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 #image-section {
@@ -137,5 +137,56 @@ h1, h2 {
 }
 
 #footer-container p {
-  line-height: 38px;
+  line-height: 1.6em;
+}
+
+@media screen and (max-width: 1260px) {
+  body {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 1.4em;
+  }
+
+  #about-first-section-container img {
+    margin-top: 0% !important;
+  }
+
+  #about-first-section-container p {
+    line-height: 1.8em;
+  }
+  
+  #about-second-section-container .founders-container img {
+    height: 72% !important;
+  }
+
+  #about-second-section-container .founders-container h2 {
+    margin-bottom: -70px;
+  }
+}
+
+@media screen and (max-width: 1660px) {
+  body {
+    font-size: 10px;
+  }
+
+  h1 {
+    margin: 6% 12.2%;
+    font-size: 3em;
+  }
+
+  #about-first-section-container img {
+    height: 280px;
+    margin-top: 2%;
+  }
+
+  #about-second-section-container .founders-container img {
+    height: 84%;
+    margin: auto auto 0;
+  }
+
+  #footer-container img {
+    height: 230px;
+  }
 }
